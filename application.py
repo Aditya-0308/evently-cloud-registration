@@ -2,7 +2,7 @@ from flask import Flask, request, redirect, render_template_string
 import sqlite3
 
 application = Flask(__name__)
-DB = "/var/app/current/evently.db"
+DB = "/tmp/evently.db"
 
 EVENTS = [
     (1, "Tech Innovation Summit", "Technology", "Explore emerging technologies and AI.", "2026-11-15"),
